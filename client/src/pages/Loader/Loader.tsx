@@ -3,7 +3,7 @@ import "./Loader.css";
 
 const Loader = () => {
   useEffect(() => {
-    document.title = "SocialUwU - Loading";
+    document.title = "Social Media App - Loading";
   }, []);
   return (
     <div className="loaderboi">

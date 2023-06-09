@@ -28,7 +28,7 @@ const Explore = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - Explore";
+    document.title = "Social Media App - Explore";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =

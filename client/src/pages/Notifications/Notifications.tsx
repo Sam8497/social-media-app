@@ -28,7 +28,7 @@ const Notifications = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - Notifications";
+    document.title = "Social Media App - Notifications";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =

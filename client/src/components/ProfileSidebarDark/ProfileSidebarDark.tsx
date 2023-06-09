@@ -13,11 +13,11 @@ import { followUser, updateProfile } from "../../actions/profile"
 import { toast } from "react-toastify";
 
 
-interface Shit {
+interface Sample {
   profileData: any;
 }
 
-const ProfileSidebarDark = (props: Shit) => {
+const ProfileSidebarDark = (props: Sample) => {
   const profileData = props.profileData;
   const { authData } = useSelector((user: any) => user.user);
   const navigate = useNavigate();

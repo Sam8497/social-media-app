@@ -202,7 +202,7 @@ export const commentStuff = (id: string, databoi: any, token: any) => async (dis
         });
     }
     else {
-        toast.success("Commented shit succesfully", {
+        toast.success("Commented succesfully", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,

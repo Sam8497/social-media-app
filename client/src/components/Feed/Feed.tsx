@@ -350,7 +350,7 @@ const Feed = (props: Props) => {
                 </div>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <Checkbox defaultChecked disabled />
-                  <p>Shit post</p>
+                  <p>post</p>
                 </div>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <Checkbox />
@@ -495,7 +495,7 @@ const Feed = (props: Props) => {
                 height: 50,
                 cursor: "pointer"
               }} />
-              <TextField id="outlined-basic" label="Type shit comment ..." variant="outlined" style={{
+              <TextField id="outlined-basic" label="Type Your comment ..." variant="outlined" style={{
                 width: "56%"
               }} onChange={(e) => {
                 setCommentData(e.target.value)

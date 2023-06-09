@@ -27,7 +27,7 @@ const Settings = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - Settings";
+    document.title = "Social Media App - Settings";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =

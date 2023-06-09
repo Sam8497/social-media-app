@@ -5,11 +5,11 @@ import "react-toggle/style.css";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify"
 
-type Shit = {
+type Sample = {
   theme: string;
 };
 
-const SettingsDark = (props: Shit) => {
+const SettingsDark = (props: Sample) => {
   const navigate = useNavigate();
   const [checked, setChecked] = useState<boolean>(props?.theme === "dark");
   const onChecked = () => {

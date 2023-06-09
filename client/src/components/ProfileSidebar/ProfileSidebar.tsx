@@ -12,11 +12,11 @@ import { useDispatch } from "react-redux";
 import { followUser, updateProfile } from "../../actions/profile"
 import { toast } from "react-toastify";
 
-interface Shit {
+interface Sample {
   profileData: any;
 }
 
-const ProfileSidebar = (props: Shit) => {
+const ProfileSidebar = (props: Sample) => {
   const navigate = useNavigate();
   const profileData = props.profileData;
   const { authData } = useSelector((user: any) => user.user);

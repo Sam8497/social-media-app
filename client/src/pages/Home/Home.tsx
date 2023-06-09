@@ -28,7 +28,7 @@ const Home = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - Home";
+    document.title = "Social Media App - Home";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =

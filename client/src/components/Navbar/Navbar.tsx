@@ -92,8 +92,8 @@ const Navbar: React.FC = () => {
         }}>
           <div className="searchbar">
             <i className="uil uil-search"></i>
-            <Tooltip title="Search shit">
-              <input type="text" placeholder="Search shit ..." onChange={(e) => {
+            <Tooltip title="Search Something">
+              <input type="text" placeholder="Search Something ..." onChange={(e) => {
                 setSearch(e.target.value)
               }} />
             </Tooltip>

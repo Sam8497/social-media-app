@@ -62,22 +62,22 @@ const LeftSidebar = () => {
         </div>
         <div className="tags-wrapper">
           <span className="tag">
-            <small>Typescript</small>
+            <small>TypeScript</small>
           </span>
           <span className="tag">
-            <small>Jaba</small>
+            <small>ReactJS</small>
           </span>
           <span className="tag">
-            <small>Brainfck</small>
+            <small>NodeJs</small>
           </span>
           <span className="tag">
-            <small>Javscript</small>
+            <small>JavaScript</small>
           </span>
           <span className="tag">
-            <small>Shit</small>
+            <small>MongoDB</small>
           </span>
           <span className="tag">
-            <small>VirginScript</small>
+            <small>CSS</small>
           </span>
         </div>
       </div>

@@ -28,7 +28,7 @@ const BookMarks = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - BookMarks";
+    document.title = "Social Media App - BookMarks";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =

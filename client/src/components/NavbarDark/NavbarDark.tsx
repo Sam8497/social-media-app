@@ -107,10 +107,10 @@ const NavbarDark: React.FC = () => {
         >
           <div className="searchbar">
             <i className="uil uil-search"></i>
-            <Tooltip title="Search shit">
+            <Tooltip title="Search Something">
               <input
                 type="text"
-                placeholder="Search shit ..."
+                placeholder="Search Something ..."
                 onChange={(e) => {
                   setSearch(e.target.value);
                 }}

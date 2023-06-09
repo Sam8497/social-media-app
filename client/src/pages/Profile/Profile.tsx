@@ -31,7 +31,7 @@ const Profile: React.FC = () => {
     }
   }, []);
   useEffect(() => {
-    document.title = "SocialUwU - Profile";
+    document.title = "Social Media App - Profile";
   }, []);
   useEffect(() => {
     document.body.style.backgroundColor =
