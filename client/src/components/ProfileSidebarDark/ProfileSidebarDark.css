@@ -1,0 +1,67 @@
+.profilesidebardark {
+  height: max-content;
+  position: sticky;
+  top: 5.4rem;
+  color: white !important;
+}
+
+.profilesidebardark .profilesidebarboi {
+  background-color: black;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: auto;
+  height: auto;
+}
+
+.profilesidebardark .profilesidebarboi .body {
+  padding: 2rem 2.5rem;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff .stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff .stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff .stats div h6 {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.profilesidebardark .profilesidebarboi .body .stuff .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .profilesidebardark {
+    display: none;
+  }
+}

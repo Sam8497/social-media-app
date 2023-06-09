@@ -1,0 +1,66 @@
+.profilesidebar {
+  height: max-content;
+  position: sticky;
+  top: 5.4rem;
+}
+
+.profilesidebar .profilesidebarboi {
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: auto;
+  height: auto;
+}
+
+.profilesidebar .profilesidebarboi .body {
+  padding: 2rem 2.5rem;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff .stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff .stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff .stats div h6 {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.profilesidebar .profilesidebarboi .body .stuff .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .profilesidebar {
+    display: none;
+  }
+}
